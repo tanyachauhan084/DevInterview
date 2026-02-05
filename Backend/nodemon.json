@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ignore": ["src/**/*.test.js"],
+    "ext": "ts, html, css, json, ejs",
+"exec": "node --no-warnings --loader ts-node/esm ./src/server.ts"
+}
